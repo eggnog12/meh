@@ -12,7 +12,5 @@ basic.forever(function () {
     ))
 })
 basic.forever(function () {
-    music.playTone(880, music.beat(BeatFraction.Half))
-    basic.pause(200)
-    music.playTone(988, music.beat(BeatFraction.Half))
+    music.playMelody("A F A D F A C G ", 120)
 })
