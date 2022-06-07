@@ -14,3 +14,6 @@ basic.forever(function () {
 basic.forever(function () {
     music.playMelody("A F A D F A C G ", 120)
 })
+basic.forever(function () {
+    music.playMelody("D G F B E F E F ", 120)
+})
